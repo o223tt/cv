@@ -2,10 +2,33 @@
 <html>
 <head>
   <title>My CV</title>
+  <style>
+    /* 使用CSS來美化你的網頁 */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
   <h1>My CV</h1>
   <table>
+    <tr>
+      <th colspan="2">Personal Information</th>
+    </tr>
     <tr>
       <td>Name:</td>
       <td>John Doe</td>
@@ -19,15 +42,41 @@
       <td>123-456-7890</td>
     </tr>
     <tr>
-      <td>Work Experience:</td>
-      <td>
+      <td>Address:</td>
+      <td>123 Main Street, Anytown USA</td>
+    </tr>
+    <tr>
+      <th colspan="2">Work Experience</th>
+    </tr>
+    <tr>
+      <td colspan="2">
         <ul>
-          <li>Company 1: Software Developer (2015-2018)</li>
-          <li>Company 2: Data Analyst (2018-2020)</li>
-          <li>Company 3: Machine Learning Engineer (2020-Present)</li>
+          <li>
+            <strong>Company 1:</strong> Software Developer (2015-2018)
+            <ul>
+              <li>Developed and maintained software applications using languages such as Java and Python.</li>
+              <li>Collaborated with cross-functional teams to identify and resolve technical issues.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Company 2:</strong> Data Analyst (2018-2020)
+            <ul>
+              <li>Performed data analysis and visualization using tools such as Excel and Tableau.</li>
+              <li>Presented findings and insights to stakeholders to inform business decisions.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Company 3:</strong> Machine Learning Engineer (2020-Present)
+            <ul>
+              <li>Designed and implemented machine learning models to solve real-world problems.</li>
+              <li>Conducted research and experimented with cutting-edge technologies and techniques.</li>
+            </ul>
+          </li>
         </ul>
       </td>
     </tr>
-  </table>
-</body>
-</html>
+    <tr>
+      <th colspan="2">Education</th>
+    </tr>
+    <tr>
+      <td colspan="
